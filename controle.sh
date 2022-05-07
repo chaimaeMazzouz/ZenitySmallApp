@@ -4,7 +4,7 @@ width=400
 emptyError(){
 	#on va pas valider les error des options ou des argument parce qu'il peut etre des error de permission
         #ou d'autres qu'il est mieux de les afficher au l'utilisateur
-	zenity --error --title="Error" --text="Il faut remplir le champs $1"
+	zenity --error --width=300 --title="Error" --text="Il faut remplir le champs $1"
 }
 findCommand(){
    #On crée le formulaire de FIND
